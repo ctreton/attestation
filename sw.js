@@ -52,16 +52,16 @@ self.__precacheManifest = [
     "revision": "623cac53a40c141642b22bf50fe14628"
   },
   {
-    "url": "confidentialite.98e11c1c.js",
-    "revision": "32cab994b5d56838305461741c5e258a"
+    "url": "confidentialite.7e2966bb.js",
+    "revision": "3c374806465518af712f72c7c8ccd268"
   },
   {
-    "url": "confidentialite.b65854e3.css",
-    "revision": "3b9204d22903466b55b34e81a00444bf"
+    "url": "confidentialite.d227c513.css",
+    "revision": "ed29e468ce3b55b4fe2c34dd9abb1972"
   },
   {
     "url": "confidentialite.html",
-    "revision": "c36d746e98b648a02c39b426d490affe"
+    "revision": "7b4d647a530a9c75ae5c4b29afcf1bb2"
   },
   {
     "url": "favicon-16x16.a4687270.png",
@@ -73,7 +73,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "676fc319e4f041a87e2c58fec16d9d22"
+    "revision": "183673f65c4d0b982cfde144626bf278"
   },
   {
     "url": "logo_dnum_dark.0fe33c5b.svg",
@@ -84,12 +84,12 @@ self.__precacheManifest = [
     "revision": "3a41bfa41e4671414da29db168c37d66"
   },
   {
-    "url": "main.a68b89f5.js",
-    "revision": "0c4e591df4909c755bf50e1cbcaabcd1"
+    "url": "main.5c4c9a49.js",
+    "revision": "230123fb599e4743b4dda213ae13d316"
   },
   {
-    "url": "main.b65854e3.css",
-    "revision": "d5375163f0a8dda79c0d5027d580067f"
+    "url": "main.d227c513.css",
+    "revision": "045a95c0ae39e4168b2d5e7f5a0eec4f"
   },
   {
     "url": "marianne-bold-webfont.1505950c.woff2",
@@ -121,9 +121,9 @@ self.__precacheManifest = [
   },
   {
     "url": "./",
-    "revision": "4aef605cae0c184ec45eaac8582911a8"
+    "revision": "cb516bee592a5b473506eaf00065dda1"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/attestation-deplacement-derogatoire-q4-2020//index.html"));
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/attestation//index.html"));
