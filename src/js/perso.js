@@ -1,4 +1,3 @@
-import { downloadBlob } from './dom-utils'
 import pdfBase from '../certificate.pdf'
 import { generatePdf } from './pdf-util'
 
@@ -53,6 +52,6 @@ export async function generatePerso () {
       pdfBase,
     )
 
-    downloadBlob(pdfBlob, `attestation-${creationDate}_${creationHour}.pdf`)
+    window.location = URL.createObjectURL(pdfBlob)
   }
 }
