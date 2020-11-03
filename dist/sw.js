@@ -52,16 +52,16 @@ self.__precacheManifest = [
     "revision": "623cac53a40c141642b22bf50fe14628"
   },
   {
-    "url": "confidentialite.8f15c150.css",
-    "revision": "134577814e4353a412d8d193f894d6f4"
+    "url": "confidentialite.98e11c1c.js",
+    "revision": "32cab994b5d56838305461741c5e258a"
   },
   {
-    "url": "confidentialite.f811ad35.js",
-    "revision": "a8761fbcd123238d7c315ca3c20975bc"
+    "url": "confidentialite.b65854e3.css",
+    "revision": "3b9204d22903466b55b34e81a00444bf"
   },
   {
     "url": "confidentialite.html",
-    "revision": "1bec6e5a1d178df7022147ec8fae3b22"
+    "revision": "c36d746e98b648a02c39b426d490affe"
   },
   {
     "url": "favicon-16x16.a4687270.png",
@@ -73,7 +73,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "4c92dce66f564092769a5444d498779d"
+    "revision": "676fc319e4f041a87e2c58fec16d9d22"
   },
   {
     "url": "logo_dnum_dark.0fe33c5b.svg",
@@ -84,12 +84,12 @@ self.__precacheManifest = [
     "revision": "3a41bfa41e4671414da29db168c37d66"
   },
   {
-    "url": "main.8f15c150.css",
-    "revision": "72ac49f5d4dc40f248f9db4f2f0c4767"
+    "url": "main.a68b89f5.js",
+    "revision": "0c4e591df4909c755bf50e1cbcaabcd1"
   },
   {
-    "url": "main.99a34656.js",
-    "revision": "e45eab2bb8fbac03e26cde10e279b875"
+    "url": "main.b65854e3.css",
+    "revision": "d5375163f0a8dda79c0d5027d580067f"
   },
   {
     "url": "marianne-bold-webfont.1505950c.woff2",
@@ -121,9 +121,9 @@ self.__precacheManifest = [
   },
   {
     "url": "./",
-    "revision": "606278863222c0c98647722ac2ab1c30"
+    "revision": "4aef605cae0c184ec45eaac8582911a8"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("https://ctreton.github.io/attestation-deplacement-derogatoire-q4-2020//index.html"));
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/attestation-deplacement-derogatoire-q4-2020//index.html"));
