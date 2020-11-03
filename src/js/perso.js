@@ -9,9 +9,9 @@ export async function generatePerso () {
     .toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })
     .replace(':', '-')
 
-  const urlParams = new URLSearchParams(window.location.search);
+  const urlParams = new URLSearchParams(window.location.search)
 
-  if ( urlParams.has('a') &&
+  if (urlParams.has('a') &&
     urlParams.has('b') &&
     urlParams.has('c') &&
     urlParams.has('f') &&
@@ -19,14 +19,14 @@ export async function generatePerso () {
     urlParams.has('p') &&
     urlParams.has('z') &&
     urlParams.has('r')) {
-    let address = urlParams.get('a')
-    let birthday = urlParams.get('b')
-    let city = urlParams.get('c')
-    let firstname = urlParams.get('f')
-    let lastname = urlParams.get('l')
-    let placeofbirth = urlParams.get('p')
-    let zipcode = urlParams.get('z')
-    let reason = urlParams.get('r')
+    const address = urlParams.get('a')
+    const birthday = urlParams.get('b')
+    const city = urlParams.get('c')
+    const firstname = urlParams.get('f')
+    const lastname = urlParams.get('l')
+    const placeofbirth = urlParams.get('p')
+    const zipcode = urlParams.get('z')
+    const reason = urlParams.get('r')
 
     const pdfBlob = await generatePdf(
       {
@@ -37,15 +37,15 @@ export async function generatePerso () {
         firstname: firstname,
         heuresortie: creationHour,
         lastname: lastname,
-        'ox-achats': "achats",
-        'ox-convocation': "convocation",
-        'ox-enfants': "enfants",
-        'ox-famille': "famille",
-        'ox-handicap': "handicap",
-        'ox-missions': "missions",
-        'ox-sante': "sante",
-        'ox-sport_animaux': "sport_animaux",
-        'ox-travail': "travail",
+        'ox-achats': 'achats',
+        'ox-convocation': 'convocation',
+        'ox-enfants': 'enfants',
+        'ox-famille': 'famille',
+        'ox-handicap': 'handicap',
+        'ox-missions': 'missions',
+        'ox-sante': 'sante',
+        'ox-sport_animaux': 'sport_animaux',
+        'ox-travail': 'travail',
         placeofbirth: placeofbirth,
         zipcode: zipcode,
       },
